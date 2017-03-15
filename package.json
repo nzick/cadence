@@ -61,6 +61,8 @@
   },
   "scripts": {
     "start": "php artisan serve",
+    "init": "php artisan koel:init",
+    "sync": "php artisan koel:sync",
     "postinstall": "yarn build",
     "test": "eslint resources/assets/js --ext=js,vue && mocha --compilers js:babel-register --require resources/assets/js/tests/helper.js resources/assets/js/tests/**/*Test.js",
     "dev": "node node_modules/cross-env/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules",
