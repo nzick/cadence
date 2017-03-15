@@ -9,7 +9,7 @@ Music player based on koel
 - NodeJS latest stable with yarn
 
 Set .env Vars:
-
+```
 DB_CONNECTION= mysql | pgsql | sqlsrv
 DB_HOST=
 DB_DATABASE=
@@ -18,17 +18,19 @@ DB_PASSWORD=
 ADMIN_EMAIL=
 ADMIN_NAME=
 ADMIN_PASSWORD=
+```
 
 ## Run
 
-Initialise:
-```composer install 
-npm init```
 
-Start:
-`npm start`
+```
+# Initialise
+composer install 
+npm init
 
+# Start
+npm start
 
-## Sync
-
-`npm sync`
+# Sync
+npm sync
+```
